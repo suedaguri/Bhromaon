@@ -126,7 +126,7 @@ header {
 .header {
     display: flex;
     margin-top: 264px;
-    width: 45%;
+    max-width: 45%;
 }
 
 .title--header {
@@ -146,7 +146,7 @@ header {
 }
 
 .header__form {
-    width: 650px;
+    max-width: 650px;
     margin: 50px auto 0;
 }
 
@@ -349,7 +349,7 @@ header {
 
 .booking__content {
 	padding: 50px 30px;
-	width: 543px;
+	max-width: 543px;
     opacity: 0.9;
     background: #232323;
 	color: #e8e8e8;
