@@ -261,7 +261,7 @@ header {
 
 .choose-us__info {
     float: left;
-    width: 560px;
+    max-width: 560px;
     margin-bottom: 132px;
 }
 
@@ -281,7 +281,7 @@ header {
 
 .choose-us__images {
     float: right;
-    width: 475px;
+    max-width: 475px;
     margin: 120px 0;
 }
 
@@ -383,6 +383,60 @@ header {
 	float: right;
 }
 
+/* REVIEWS */
+
+.reviews {
+	background: url(../images/reviews.png) 50% / cover no-repeat;
+	padding: 120px 0 200px;
+}
+
+.reviews__title {
+	font-family: 'Aleo', serif;
+	font-size: 36px;
+	text-align: center;
+	text-transform: capitalize;	
+}
+
+.reviews__content {
+	margin-top: 94px;
+	width: 100%;
+	height: auto;
+	background-color: #333333;
+	opacity: 0.9;
+}
+
+.booking__img {
+	float: left;
+	background: url(../images/reviewsmall.png) 50% / cover no-repeat;
+	height: 285px;
+	width: 445px;
+}
+
+.box__info {
+	max-width: 655px;
+	float: right;
+	color: #e8e8e8;
+	padding: 45px;
+}
+
+.info__title {
+	font-size: 20px;
+	text-transform: uppercase;	
+}
+
+.info__text {
+	display: flex;
+	margin-top: 8px;
+	line-height: 160%;
+	font-size: 16px;
+}
+
+.info__icon {
+	position: relative;
+    padding-right: 10px;
+	font-size: 30px;
+	color: #5474fd;	
+}
 
 
 
