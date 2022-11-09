@@ -64,6 +64,9 @@ body {
 	font-size: 16px;
 	color: #fff;
 } 
+a {
+    text-decoration: none;
+}
 /* COMMON USE */
 .btn {
     width: 225px;
@@ -140,13 +143,13 @@ header {
 .form__btn {
     width: 150px;
     height: 60px;
+    background-color: #5474fd;
+    border: 2px solid #fff;
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    background-color: #5474fd;
-    border: 2px solid #fff;
 }
 .form__text-input {
     color: #FFFFFF;
@@ -154,4 +157,34 @@ header {
     font-size: 14px;
     line-height: 186%;
     font-weight: 400;
+}
+
+.form__field::placeholder {
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    color: #999999;
+    text-transform: capitalize;
+}
+
+.scroll__link {
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    text-align: center;
+    margin-left: -47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.scroll__text {
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    position: relative;
+}
+
+.scroll__arrow {
+    margin-top: 10px;
 }
