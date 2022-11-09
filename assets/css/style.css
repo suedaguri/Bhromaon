@@ -84,14 +84,13 @@ a {
     width: 225px;
     height: 60px;
     color: #FFFFFF;
-    font-family: 'Aleo';
+    font-family: 'Aleo', serif;
     letter-spacing: 0.075em;
     font-weight: 400;
     font-size: 16px;
     line-height: 386%;
     background-color: #5474fd;
     text-align: center;
-    letter-spacing: 1.2px;
     text-transform: uppercase;
     cursor: pointer;
     margin-top: 45px;
@@ -110,14 +109,14 @@ font-family: 'Josefin Sans', serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 162%;
-letter-spacing: 1.6px;
+letter-spacing: 0.075em;
 color: #E8E8E8;
 }
 
 /* HEADER */
 
 header {
-    background: url(../images/header.png) 50% / cover no-repeat;
+    background: url(../images/header.png) 100% / cover no-repeat;
     position: relative;
     display: flex;
     margin: auto;
@@ -267,8 +266,8 @@ header {
 }
 
 .title--choose-us {
-font-family: 'Aleo', serif;
-margin: 211px 0 50px;
+    font-family: 'Aleo', serif;
+    margin: 211px 0 50px;
 }
 
 .text--choose-us {
@@ -340,3 +339,50 @@ margin: 211px 0 50px;
     font-size: 30px;
 	color: #e8e8e8;
 }
+
+/* BOOK NOW */
+
+.booking {
+	background: url(../images/booknow.png) 100% / cover no-repeat;
+	padding: 230px 0 100px;
+}
+
+.booking__content {
+	padding: 50px 30px;
+	width: 543px;
+    opacity: 0.9;
+    background: #232323;
+	color: #e8e8e8;
+}
+
+.booking__location {
+	font-size: 20px;
+	letter-spacing: 0.075em;
+	text-transform: capitalize;	
+}
+
+.booking__title {
+	margin-top: 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.booking__info {
+	margin-top: 13px;
+	line-height: 186%;
+}
+
+/* BOOK NOW RIGHT */
+
+.booking-right {
+	background: url(../images/booknow1.png) 100% / cover no-repeat;
+	padding: 230px 0 100px;
+}
+
+.booking__content--right {
+	float: right;
+}
+
+
+
+
