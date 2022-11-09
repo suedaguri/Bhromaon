@@ -174,6 +174,7 @@ header {
     align-items: center;
     text-transform: uppercase;
 }
+
 .form__text-input {
     color: #FFFFFF;
     padding-right: 10px;
@@ -351,9 +352,9 @@ header {
 .booking__content {
 	padding: 50px 30px;
 	max-width: 543px;
-    opacity: 0.9;
     background: #232323;
 	color: #e8e8e8;
+    opacity: 0.9;
 }
 
 .booking__location {
@@ -439,5 +440,33 @@ header {
 	color: #5474fd;	
 }
 
+/* FOOTER */
 
+footer {
+	background-color: #232323;
+	text-align: center;
+	padding: 120px 0 50px;
+}
 
+.footer__title {
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+}
+
+.footer__text {
+	margin-top: 15px;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;	
+}
+
+.footer__icons {
+	margin-top: 25px;
+}
+
+.footer__link {
+	margin-right: 25px;
+	color: #fff;
+	transition: 0s;
+}
