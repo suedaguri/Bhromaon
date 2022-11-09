@@ -49,6 +49,7 @@ table {
 
 /* END RESET */
 /* IN GENERAL */
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -67,7 +68,9 @@ body {
 a {
     text-decoration: none;
 }
+
 /* COMMON USE */
+
 .btn {
     width: 225px;
     height: 60px;
@@ -90,11 +93,20 @@ font-family: 'Josefin Sans', serif;
 font-weight: 400;
 font-size: 36px;
 line-height: 72%;
-text-align: center;
 color: #FFFFFF;
 }
 
+.text {
+font-family: 'Josefin Sans', serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 1.6px;
+color: #E8E8E8;
+}
+
 /* HEADER */
+
 header {
     background: url(../images/header.png) 50% / cover no-repeat;
     position: relative;
@@ -114,6 +126,7 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    text-align: center;
 }
 
 .header__text {
@@ -230,4 +243,45 @@ header {
     line-height: 186%;
     font-size: 14px;
     text-transform: uppercase;
+}
+
+/* CHOOSE US */
+
+.choose-us {
+    background: url(../images/choose2.png) 100% / cover no-repeat;
+}
+
+.choose-us__info {
+    float: left;
+    width: 560px;
+    margin-bottom: 132px;
+}
+
+.title--choose-us {
+font-family: 'Aleo', serif;
+margin: 211px 0 50px;
+}
+
+.text--choose-us {
+    line-height: 186%;
+    margin-bottom: 30px;
+}
+
+.text--choose-us:last-of-type {
+    margin-bottom: 0px;
+}
+
+.choose-us__images {
+    float: right;
+    width: 475px;
+    margin: 120px 0;
+}
+
+.choose-us__left {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.choose-us__right {
+    float: right;
 }
